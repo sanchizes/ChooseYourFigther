@@ -1,0 +1,7 @@
+C:\Users\albat\source\repos\ChooseYourFighter\bin\Debug\ChooseYourFighter.exe.config
+C:\Users\albat\source\repos\ChooseYourFighter\bin\Debug\ChooseYourFighter.exe
+C:\Users\albat\source\repos\ChooseYourFighter\bin\Debug\ChooseYourFighter.pdb
+C:\Users\albat\source\repos\ChooseYourFighter\obj\Debug\ChooseYourFighter.csproj.AssemblyReference.cache
+C:\Users\albat\source\repos\ChooseYourFighter\obj\Debug\ChooseYourFighter.csproj.CoreCompileInputs.cache
+C:\Users\albat\source\repos\ChooseYourFighter\obj\Debug\ChooseYourFighter.exe
+C:\Users\albat\source\repos\ChooseYourFighter\obj\Debug\ChooseYourFighter.pdb
