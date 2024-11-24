@@ -20,7 +20,11 @@ namespace ChooseYourFighter
 
             //Console.WriteLine(PinValidation("1234"));
 
-            Console.WriteLine(GetMiddleCharacters("james"));
+            //Console.WriteLine(GetMiddleCharacters("james"));
+
+            //Console.WriteLine(GetVolumeDifference([1, 2, 3], [3, 4, 5 ]));
+
+            Console.WriteLine(LinqDoubleChars("Nice"));
 
             Console.ReadKey();
         }
@@ -60,6 +64,22 @@ namespace ChooseYourFighter
             {
                 return str.Substring(len / 2 - 1, len / 2);
             }
+        }
+
+        static int GetVolumeDifference(int[] a, int[] b) => Math.Abs(a[0] * a[1] * a[2] - b[0] * b[1] * b[2]);
+
+        static string DoubleChars(string str)
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach(char c in str)
+            {
+                sb.Append(c).Append(c);
+            }
+            return sb.ToString();
+        }
+
+        static string LinqDoubleChars(string s) {
+            return string.Join("", s.Select(symbol => "" + symbol + symbol));
         }
     }
 }
